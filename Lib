@@ -1,0 +1,20 @@
+k={
+    "prasanna": 20,
+    "Meera": 14,
+    "Ramesh" : 90
+}
+
+name= input("Enter your name:")
+
+if name in k:
+    print("user exists.")
+    print("Name:",name)
+    print("Roll No:",d[name])
+else:
+    print("user does not exists.")
+    num= int(input("Enter roll number:"))
+    d[name]= num
+    
+    print("User added into the data.")
+    print("Name:",name)
+    print("Roll No:",k)
