@@ -1,0 +1,6 @@
+a = {"abba", "bbaa", "abbaba", "bbaabb"}
+print("Palindrome strings are:")
+
+for spelling in a:
+    if spelling == spelling[::-1]:
+        print(spelling)
